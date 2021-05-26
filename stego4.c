@@ -10,7 +10,7 @@ void to_bin(int a);
 int main()
 {
 
-	int buf[] = {0,2,4};
+	int buf[] = {1,2,3};
 
 	stego(buf);
 }
@@ -26,9 +26,7 @@ void stego(int buf[])
 	
 	int turner;
 	
-	//FILE *binaryfile;
 	
-	//binaryfile = fopen("binary.txt", "w");
 	
 	for (n=0 ; n<N ; ++n)
 	{	//("%d" , buf[n]);
@@ -39,15 +37,41 @@ void stego(int buf[])
 }
 void to_bin(int a)
 {
+	FILE *fptr;
+	
+	
 	int c, k;
-	for (c = 15; c >= 0; c--)
-	  {
-	    k = a >> c;
+	int i=1, o=0;
+	
+	if ((fptr = fopen("myfile.txt", "a")) == NULL)
+	{/* File open failed. */
+		printf("Can’t open myfile\n"); 
+		exit(1);
+	}
+	
+	else
+	{
+		for (c = 15; c >= 0; c--)
+		  {
+		    k = a >> c;
 
-	    if (k & 1)
-	      printf("1");
-	    else
-	      printf("0");
-	  }
-	  printf("\n");
+		    if (k & 1)
+		    {
+		    	printf("1");
+		      	fprintf(fptr, "%d", i);
+		    }
+		    else
+		    {
+		    	printf("0");
+		      	fprintf(fptr, "%d", o);
+		    }	
+		 
+		 printf("In file!!");
+		  }
+		  printf("\n");
+		  fprintf(fptr, "\n");
+		  printf("Closing file!!");
+		  fclose(fptr);
+		  
+		  }
 }
