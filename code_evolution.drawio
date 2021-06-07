@@ -1,1 +1,163 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T07:58:46.545Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" version="14.7.6" etag="lPjR_2wKcXzrmkHXOYrH" type="github"><diagram id="h4TdzVr7b9plfZTimIBm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-07T08:15:28.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="OEQHPIc24vhCNuyc8qmS" version="14.7.6" type="github">
+  <diagram id="h4TdzVr7b9plfZTimIBm" name="Page-1">
+    <mxGraphModel dx="1915" dy="865" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zTHFYxItJHiNjGrcZ0zc-1" target="zTHFYxItJHiNjGrcZ0zc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-1" value="Input the audio filename" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zTHFYxItJHiNjGrcZ0zc-8" target="zTHFYxItJHiNjGrcZ0zc-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-8" value="&lt;span&gt;Pass values through FFMPEG pipe&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-10" value="Obtain 16 bit signed integers saved in a CSV file" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-13" value="Input the audio filename" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="zTHFYxItJHiNjGrcZ0zc-13" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zTHFYxItJHiNjGrcZ0zc-20" target="zTHFYxItJHiNjGrcZ0zc-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-20" value="&lt;span&gt;Pass values through FFMPEG pipe&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zTHFYxItJHiNjGrcZ0zc-21" target="zTHFYxItJHiNjGrcZ0zc-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-21" value="Obtain 16 bit signed integers saved in a CSV file" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-22" value="Input the audio filename" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zTHFYxItJHiNjGrcZ0zc-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zTHFYxItJHiNjGrcZ0zc-25" target="zTHFYxItJHiNjGrcZ0zc-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-25" value="Convert each integer to binary" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-27" value="Extract LSB from the binary values." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-29" value="Input the audio filename" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-30" value="&lt;span&gt;Pass values through FFMPEG pipe&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-31" value="Obtain 16 bit signed integers saved in a CSV file" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-32" value="Input the audio filename" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-33" value="&lt;span&gt;Pass values through FFMPEG pipe&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-34" value="Obtain 16 bit signed integers saved in a CSV file" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-35" value="Convert each integer to binary" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zTHFYxItJHiNjGrcZ0zc-37" target="zTHFYxItJHiNjGrcZ0zc-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-37" value="Input the audio filename" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zTHFYxItJHiNjGrcZ0zc-38" target="zTHFYxItJHiNjGrcZ0zc-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-38" value="&lt;span&gt;Pass values through FFMPEG pipe&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zTHFYxItJHiNjGrcZ0zc-39" target="zTHFYxItJHiNjGrcZ0zc-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zTHFYxItJHiNjGrcZ0zc-39" target="zTHFYxItJHiNjGrcZ0zc-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-39" value="Obtain 16 bit signed integers saved in a CSV file" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zTHFYxItJHiNjGrcZ0zc-46" target="zTHFYxItJHiNjGrcZ0zc-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-46" value="for number values equal to the string length" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zTHFYxItJHiNjGrcZ0zc-48" target="zTHFYxItJHiNjGrcZ0zc-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-48" value="For the number of sample values greater than the string length" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zTHFYxItJHiNjGrcZ0zc-52" target="zTHFYxItJHiNjGrcZ0zc-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zTHFYxItJHiNjGrcZ0zc-52" target="zTHFYxItJHiNjGrcZ0zc-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-52" value="Input the filename where the binary string is stored" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-56" value="Work out the length of the string, and store the message in an array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zTHFYxItJHiNjGrcZ0zc-60" target="zTHFYxItJHiNjGrcZ0zc-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="840" />
+              <mxPoint x="600" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-60" value="Convert to 15 bit binary values and replace 16th bit with string and store in file.txt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="710" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zTHFYxItJHiNjGrcZ0zc-63" target="zTHFYxItJHiNjGrcZ0zc-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-63" value="Convert to 16 bit binary values and append (store at EOF) file.txt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="710" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zTHFYxItJHiNjGrcZ0zc-65" target="zTHFYxItJHiNjGrcZ0zc-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-65" value="Save each line from file.txt into a buffer, and convert it to integers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zTHFYxItJHiNjGrcZ0zc-65" target="zTHFYxItJHiNjGrcZ0zc-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zTHFYxItJHiNjGrcZ0zc-70" value="Pass the integer values through the FFMPEG pipe" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
